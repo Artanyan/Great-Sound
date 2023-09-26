@@ -1,0 +1,15 @@
+@import './blocks/normalize';
+@import './blocks/variables';
+
+@import './blocks/header';
+@import './blocks/hero';
+@import './blocks/teacher';
+@import './blocks/subscribe';
+@import './blocks/footer';
+
+@import'./blocks/btn-top';
+
+body{
+    background: rgb(133,150,184);
+    background: linear-gradient(90deg, rgba(133,150,184,1) 0%, rgba(255,255,255,1) 50%, rgba(250,255,201,1) 100%);
+}

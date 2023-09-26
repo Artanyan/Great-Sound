@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="shortcut icon" href="./img/logo.webp">
+    <title>Great Sound</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <a href=""><img src="./img/logo.webp" alt="logo"></a>
+            <nav class="header__nav">
+                <div class="menu">
+                        <ul class="header__ul">
+                            <li class="header__li"><a href="#hero">Наш гурток</a></li>
+                            <li class="header__li"><a href="#teacher">Керівник</a></li>
+                            <li class="header__li"><a href="#subscribe">Вступ до гуртка</a></li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </header>  
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__head-info">
+                <h1>Будинок дитячої та юнацької творчості<br>Заводського району</h1>
+                <p>Запрошує дітей віком від 6 до 18 років</p>
+            </div>
+            <div class="hero__bloc">
+                <div class="hero__img-left">
+                    <img src="./img/3.webp" alt="">
+                </div>
+                <div class="hero__info">
+                    <h2 class="hero__title">Great Sound</h2>
+                        <p class="hero__text">Гурток "Great Sound" існує з 2017 року. Колектив отримує навички гри на музичному інструменті гітара, вивчає музичну грамоту, виховує в собі сценічний та етичний образ артиста. Наші вихованці приймають участь у багатьох концертах, фестивалях, конкурсах, творчіх вечорах і звітніх заходах для наших батьків та друзів. </p>
+                </div>
+                <div class="hero__img-right">
+                    <img src="./img/2.webp" alt="">
+                </div>
+            </div>
+        </section>
+
+            <section id="teacher" class="teacher">
+                <div class="teacher__bloc">
+                    <div class="teacher__img">
+                        <img src="./img/1.jpg" alt="teacher">
+                    </div>
+                    <div class="teacher__info">
+                        <h2 class="teacher__title">Керівник гуртка: Олександр Сергійович.</h2>
+                        <div class="teacher__list-info">
+                            <p class="teacher__text">Освіта:</p>
+                            <ul class="teacher__list1">
+                                <li class="teacher__item1">«Олександрійський коледж культури та мистецтв »: 2011-2015 рік навчання.</li>
+                                <li class="teacher__item1">«Миколаївський філіал Київського національного університету культури та мистецтв»: 2015 – 2020 рік навчання.</li>
+                                <li class="teacher__item1">«Київський університет культури»: 2020 - 2021 рік навчання.</li>
+                                <li class="teacher__item1"> </li>
+                            </ul>
+                            <p class="teacher__text">Активно приймав участь в концертній діяльності коледжу та університету:</p>
+                            <ul class="teacher__list2">
+                                <li class="teacher__item2"> Гра на гітарі: соло, дует, тріо, ансамблі.
+                                    Виїзні концерти по містам України.</li>
+                                <li class="teacher__item2">Акомпанемент для хору, та солістів.</li>
+                                <li class="teacher__item2">Оркестрах : соло електрогітари , акомпанемент в оркестрі.</li>
+                            </ul>
+                            <p class="teacher__text">Досвід викладання інструменту гітара 7 років.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <section id="subscribe" class="subscribe">
+            <div class="subscribe__img">
+                <div class="img-hidden"><img src="./img/4.webp" alt=""></div>
+                <img src="./img/5.webp" alt="">
+            </div>
+                    <div class="subscribe__bloc">
+                        <form class="modal-form js-send-form" autocomplete="off">
+                            <span class="title-modal">Долучайтеся до нашого колективу</span>
+                            <label class="label-form">
+                                <span class="title-imput">Ім'я</span>
+                                <input class="inputs-form" type="text" name="name">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">Прізвище</span>
+                                <input class="inputs-form" type="text" name="surname">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">Телефон</span>
+                                <input class="inputs-form" type="tel" name="tel">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">Пошта</span>
+                                <input class="inputs-form" type="email" name="email">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">П.І.Б. дитини</span>
+                                <input class="inputs-form" type="text" name="
+                                name-and-surname-of-the-child">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">Дата народження дитини</span>
+                                <input class="inputs-form" type="date" name="
+                                date-of-birth-of-the-child"  value="2000-01-01" min="2000-01-01" max="2018-01-01">
+                            </label>
+                            <label class="label-form">
+                                <span class="title-imput">Навчальний заклад та клас</span>
+                                <input class="inputs-form" type="text" name="
+                                educational-institution-and-class">
+                            </label>
+                            <button class="modal-button" type="submit">Відправити заяву</button>
+                        </form>
+                    </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__bloc">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <img class="footer__img" src="./img/logo.webp" alt="logo">
+                </div>
+                <p class="footer__paragraf">Будинок дитячої та юнацької творчості<br>Заводського району</p>
+                <div class="footer__socials-container">
+                    <ul class="footer__socials-list">
+                        <li> 
+                            <a class="footer__socials-link" href="https://www.youtube.com/@horoshas">
+                                <img class="footer__socials-icon" src="./img/icon/socials/youtube.svg" alt="social">
+                            </a>
+                        </li>
+                        <li> 
+                            <a class="footer__socials-link" href="">
+                                <img class="footer__socials-icon" src="./img/icon/socials/instagram.svg" alt="social">
+                            </a>
+                        </li>
+                        <li> 
+                            <a class="footer__socials-link" href="">
+                                <img class="footer__socials-icon" src="./img/icon/socials/facebook.svg" alt="social">
+                            </a>
+                        </li>
+                        <li> 
+                            <a class="footer__socials-link" href="">
+                                <img class="footer__socials-icon" src="./img/icon/socials/mail.svg" alt="social">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+
+            </div>
+            <div class="footer__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10892.737042131406!2d31.9858341!3d46.9580696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c95ef0dbff3f%3A0xef5be5bf96cd92f3!2z0JHRg9C00LjQvdC-0Log0LTQuNGC0Y_Rh9C-0Zcg0YLQsCDRjtC90LDRhtGM0LrQvtGXINGC0LLQvtGA0YfQvtGB0YLRlg!5e0!3m2!1suk!2sua!4v1695652432323!5m2!1suk!2sua" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">	&#8593;</button>
+      
+    <script src="./js/btn-top.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
