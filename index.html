@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@
                         <img src="./img/1.jpg" alt="teacher">
                     </div>
                     <div class="teacher__info">
-                        <h2 class="teacher__title">Керівник гуртка: Олександр Сергійович.</h2>
+                        <h2 class="teacher__title">Керівник гуртка:<br>Третяк Олександр Сергійович.</h2>
                         <div class="teacher__list-info">
                             <p class="teacher__text">Освіта:</p>
                             <ul class="teacher__list1">
@@ -72,6 +72,7 @@
             </section>
 
         <section id="subscribe" class="subscribe">
+            <h2 class="subscribe__title">Залишити заявку</h2>
             <div class="subscribe__img">
                 <div class="img-hidden"><img src="./img/4.webp" alt=""></div>
                 <img src="./img/5.webp" alt="">
@@ -81,19 +82,19 @@
                             <span class="title-modal">Долучайтеся до нашого колективу</span>
                             <label class="label-form">
                                 <span class="title-imput">Ім'я</span>
-                                <input class="inputs-form" type="text" name="name">
+                                <input class="inputs-form" type="text" name="name" autocomplete="given-name">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">Прізвище</span>
-                                <input class="inputs-form" type="text" name="surname">
+                                <input class="inputs-form" type="text" name="surname" autocomplete="family-name">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">Телефон</span>
-                                <input class="inputs-form" type="tel" name="tel">
+                                <input class="inputs-form" type="tel" name="tel" autocomplete="off">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">Пошта</span>
-                                <input class="inputs-form" type="email" name="email">
+                                <input class="inputs-form" type="email" name="email" autocomplete="off">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">П.І.Б. дитини</span>
@@ -110,11 +111,12 @@
                                 <input class="inputs-form" type="text" name="
                                 educational-institution-and-class">
                             </label>
-                            <button class="modal-button" type="submit">Відправити заяву</button>
+                            <button class="modal-button" type="submit" onclick="btnAlert()">Відправити заяву</button>
                         </form>
                     </div>
         </section>
     </main>
+    
     <footer class="footer">
         <div class="footer__bloc">
             <div class="footer__container">
@@ -155,7 +157,7 @@
     </footer>
 
       <button onclick="topFunction()" id="myBtn" title="Go to top">	&#8593;</button>
-      
+
     <script src="./js/btn-top.js"></script>
     <script src="./js/modal.js"></script>
 </body>
