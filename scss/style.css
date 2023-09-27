@@ -579,10 +579,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer__paragraf {
   color: #5F5FE6;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   font-size: 20px;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 40px;
   text-align: center;
 }
 .footer__socials-container {
