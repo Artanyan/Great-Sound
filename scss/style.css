@@ -535,6 +535,11 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 350px;
   }
 }
+@media all and (max-width: 1024px) {
+  .subscribe__img img {
+    height: 232px;
+  }
+}
 @media all and (max-width: 425px) {
   .subscribe__img img {
     max-width: 80%;
@@ -550,6 +555,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .subscribe__img .img-hidden img {
   height: 100%;
+}
+@media all and (max-width: 1024px) {
+  .subscribe__img .img-hidden img {
+    height: 232px;
+  }
 }
 @media all and (max-width: 732px) {
   .subscribe__img .img-hidden {
