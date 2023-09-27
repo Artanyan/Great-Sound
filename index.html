@@ -78,7 +78,7 @@
                 <img src="./img/5.webp" alt="">
             </div>
                     <div class="subscribe__bloc">
-                        <form class="modal-form js-send-form" autocomplete="off">
+                        <form class="modal-form js-send-form" name="submit-to-google-sheet" autocomplete="off">
                             <span class="title-modal">Долучайтеся до нашого колективу</span>
                             <label class="label-form">
                                 <span class="title-imput">Ім'я</span>
@@ -98,18 +98,15 @@
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">П.І.Б. дитини</span>
-                                <input class="inputs-form" type="text" name="
-                                name-and-surname-of-the-child">
+                                <input class="inputs-form" type="text" name="name-and-surname-of-the-child">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">Дата народження дитини</span>
-                                <input class="inputs-form" type="date" name="
-                                date-of-birth-of-the-child"  value="2000-01-01" min="2000-01-01" max="2018-01-01">
+                                <input class="inputs-form" type="date" name="date-of-birth-of-the-child"  value="2000-01-01" min="2000-01-01" max="2018-01-01">
                             </label>
                             <label class="label-form">
                                 <span class="title-imput">Навчальний заклад та клас</span>
-                                <input class="inputs-form" type="text" name="
-                                educational-institution-and-class">
+                                <input class="inputs-form" type="text" name="educational-institution-and-class">
                             </label>
                             <button class="modal-button" type="submit" onclick="btnAlert()">Відправити заяву</button>
                         </form>
@@ -157,7 +154,7 @@
     </footer>
 
       <button onclick="topFunction()" id="myBtn" title="Go to top">	&#8593;</button>
-
+    <script src="./js/users-data.js"></script>
     <script src="./js/btn-top.js"></script>
     <script src="./js/modal.js"></script>
 </body>
