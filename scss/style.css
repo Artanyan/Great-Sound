@@ -573,6 +573,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
 }
+.footer__logo a {
+  display: contents;
+}
 .footer__img {
   width: 50%;
   padding-bottom: 10px;
